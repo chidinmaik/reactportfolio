@@ -1,0 +1,92 @@
+
+.bout h6{
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 100%;
+}
+.bout h1{
+    color: #48b6ff;
+    margin-bottom: 40px;
+}
+.bout h1::after{
+    content: "";
+    display: block;
+    position: relative;
+    width: 50px;
+    height: 1px;
+    left: 45%;
+    border-bottom: 5px dotted #48b6ff;
+  
+}
+.bout p{
+    margin: 15px;
+    color: #48b6ff;
+    text-decoration: underline;
+}
+
+.about li{
+    line-height: 2em;
+    justify-content: start;
+    list-style: none;
+    padding-right: 20px;
+    stop-opacity: 20px;
+    margin-right: auto;
+    
+}
+.about{
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+}
+
+.about .one{
+ color: #48b6ff;
+ margin-right: 35px;
+}
+
+
+.about button{
+    background-color: rgb(20, 192, 134);
+    border: none;
+    padding: 5px;
+    color: white;
+    border-radius: 10px;
+
+}
+
+#About{
+    max-width: 960px;
+    border: none;
+   justify-content: center;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   text-align: left;
+   animation: slideTop 1.5s ease-in;
+   margin-left: 40px;
+  
+
+}
+
+.interest div{
+    
+    background-color: transparent;
+    box-shadow: 0px 0px 15px #48b6ff;
+    margin: 10px;
+    width: fit-content;
+    padding: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 900px) {
+
+    #About{
+        margin: 1px;
+        display: flex; 
+        max-width: 100%;
+        margin-right: auto;
+    }
+  .interest {
+    display: none;
+  }
+ 
+
+}

@@ -1,0 +1,76 @@
+.App {
+  text-align: center;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #1f242d;
+  color: #fff;
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+.home-img{
+  width: 50%;
+  
+}
+
+
+.App-link {
+  color: #61dafb;
+}
+
+/*keyframes animation*/
+@keyframes slideRight {
+  0% {
+     transform: translateX(-100px);
+     opacity:0;
+  } 
+  100%{
+     transform: translateX(0);
+     opacity:1;
+  }
+ }
+
+ @keyframes slideLeft {
+     0% {
+        transform: translateX(-100px);
+        opacity:0;
+     } 
+     100%{
+        transform: translateX(0);
+        opacity:1;
+     }
+    }
+
+
+ @keyframes slideTop{
+     0% { 
+        transform: translateY(100px);
+        opacity:0;
+     } 
+     100%{
+        transform: translateY(0);
+        opacity:1;
+     }   
+}
+
+@keyframes slideBottom{
+ 0% {
+    transform: translateY(-100px);
+    opacity:0;
+ } 
+ 100%{
+    transform: translateY(0);
+    opacity:1;
+ }  
+}

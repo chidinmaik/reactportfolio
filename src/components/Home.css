@@ -1,0 +1,115 @@
+.home{
+   
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 70px 10% 0 ;
+}
+
+.home-img{
+    width: 50%;
+    
+}
+.home-content{
+    margin-top: 50px;
+}
+
+.home-content span{
+    color:#48b6ff;
+    font-size: larger;
+
+}
+.home-content h1{
+    font-size: 56px;
+    animation: slideRight 1s ease-in-out forwards ;
+    animation-delay: .7s;
+}
+.home-content h3{
+    font-size: 32px;
+    font-weight: 700;
+    animation: slideBottom .5s ease forwards ;
+    animation-delay: .7s;
+}
+.home-content h3:nth-last-of-type(2){
+    margin-bottom: 30px;
+    animation: slideTop 1s ease forwards ;
+    animation-delay: .7s;
+}
+
+.home-content p{
+    font-size: 20px;
+    font-weight: 100;
+    animation: slideLeft 1s ease forwards ;
+    animation-delay: .7s;
+
+}
+
+.social-media a{
+    display:inline-flex ;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: 2px solid #48b6ff;
+    border-radius: 50%;
+    color: #48b6ff;
+    text-decoration: none;
+    margin: 30px 15px 30px 0 ;
+    transition: 3s ease;
+    padding: 10px;
+    box-shadow: 0px 0px 10px #48b6ff;
+    animation: slideLeft 1s ease forwards ;
+    animation-delay: 1s;
+    
+
+}
+
+.social-media a:hover{
+    background-color: #48b6ff;
+    color: white;
+}
+
+.btn{
+    display: inline-block;
+    background-color: #48b6ff;
+    padding: 12px 28px;
+    box-shadow: 0 0 10px #48b6ff;
+    border-radius: 20px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    
+}
+
+
+@media (min-width: 320px) and (max-width: 900px) {
+    .home{
+         display: grid; 
+        width: 100%;
+        height: 100%;
+        align-items: center;
+      
+    }
+
+    .home-img{
+        width: 30%;
+        margin-left: 20%;
+        box-shadow: 0px 0px #48b6ff;
+       
+    }
+    
+
+    img{
+        margin-top: 30px;
+        max-width: 200%;
+        border: 2px solid white;
+        border-radius: 50%;
+        
+        
+    }
+}
